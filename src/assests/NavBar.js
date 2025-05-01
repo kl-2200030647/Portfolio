@@ -58,15 +58,8 @@ const NavBar = () => {
           </li>
         ))}
         <li style={liStyle}>
-          <a
-            href="/resume_Hema.pdf"
-            download
-            style={resumeLinkStyle}
-            onMouseOver={(e) => hoverEffect(e, "#2b6cb0")} // Darker blue on hover
-            onMouseOut={(e) => hoverEffect(e, resumeLinkStyle.color)}
-          >
-            Resume
-          </a>
+          <a href="/Resume_Hema.pdf" download>Download Resume</a>
+
         </li>
       </ul>
     </nav>
