@@ -58,7 +58,7 @@ const NavBar = () => {
           </li>
         ))}
         <li style={liStyle}>
-          <a href="/Resume_Hema.pdf" download>Download Resume</a>
+          <a href="/Resume_Hema.pdf" download> Resume</a>
 
         </li>
       </ul>
